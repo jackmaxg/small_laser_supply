@@ -363,12 +363,6 @@ grid 2.54 mm</description>
 <wire x1="-2.032" y1="-1.524" x2="1.524" y2="2.032" width="0.1524" layer="94"/>
 <wire x1="2.032" y1="1.524" x2="-1.524" y2="-2.032" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="5V">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="0" y="2.794" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="GND">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="0" y="-0.254" size="1.27" layer="96" rot="MR0" align="top-center">&gt;VALUE</text>
@@ -574,19 +568,6 @@ grid 2.54 mm</description>
 <connects>
 <connect gate="G$1" pin="P" pad="P"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="5V" prefix="SUPPLY">
-<description>5V supply symbol</description>
-<gates>
-<gate name="G$1" symbol="5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -800,7 +781,6 @@ grid 2.54 mm</description>
 <part name="MH2" library="small_laser_supply_lib" deviceset="THREADED_INSERT" device="_M3"/>
 <part name="MH3" library="small_laser_supply_lib" deviceset="THREADED_INSERT" device="_M3"/>
 <part name="MH4" library="small_laser_supply_lib" deviceset="THREADED_INSERT" device="_M3"/>
-<part name="SUPPLY1" library="small_laser_supply_lib" deviceset="5V" device=""/>
 <part name="GND1" library="small_laser_supply_lib" deviceset="GND" device=""/>
 <part name="GND2" library="small_laser_supply_lib" deviceset="GND" device=""/>
 <part name="GND3" library="small_laser_supply_lib" deviceset="GND" device=""/>
@@ -845,8 +825,7 @@ grid 2.54 mm</description>
 <instance part="MH2" gate="G$1" x="48.26" y="205.74"/>
 <instance part="MH3" gate="G$1" x="58.42" y="205.74"/>
 <instance part="MH4" gate="G$1" x="68.58" y="205.74"/>
-<instance part="SUPPLY1" gate="G$1" x="12.7" y="200.66"/>
-<instance part="GND1" gate="1" x="17.78" y="193.04"/>
+<instance part="GND1" gate="1" x="12.7" y="195.58"/>
 <instance part="GND2" gate="1" x="38.1" y="195.58"/>
 <instance part="GND3" gate="1" x="48.26" y="195.58"/>
 <instance part="GND4" gate="1" x="58.42" y="195.58"/>
@@ -1008,8 +987,8 @@ grid 2.54 mm</description>
 </net>
 <net name="-VIN" class="0">
 <segment>
-<wire x1="22.86" y1="203.2" x2="22.86" y2="200.66" width="0.1524" layer="91"/>
-<label x="22.86" y="203.2" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="12.7" y1="203.2" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
+<label x="12.7" y="203.2" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
