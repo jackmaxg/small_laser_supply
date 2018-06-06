@@ -202,8 +202,8 @@ http://katalog.we-online.de/em/datasheet/7466003.pdf</description>
 <circle x="-1.65" y="-1" radius="0.1436" width="0.2032" layer="21"/>
 </package>
 <package name="0603">
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="21"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="16" align="bottom-center">&gt;NAME</text>
@@ -1034,7 +1034,7 @@ grid 2.54 mm</description>
 <junction x="223.52" y="78.74"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="V_REF" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -1047,6 +1047,7 @@ grid 2.54 mm</description>
 <wire x1="160.02" y1="78.74" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <junction x="160.02" y="78.74"/>
+<label x="164.846" y="79.248" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
