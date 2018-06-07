@@ -499,7 +499,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <element name="U1" library="small_laser_supply_lib" package="SOT23-5" value="LT6003_SOT23-5" x="13.0175" y="20.955" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.90625" y="21.209" size="0.6096" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
-<element name="R_REF" library="small_laser_supply_lib" package="0603" value="165" x="12.54125" y="23.33625" smashed="yes">
+<element name="R4" library="small_laser_supply_lib" package="0603" value="165" x="12.54125" y="23.33625" smashed="yes">
 <attribute name="NAME" x="15.39875" y="23.495" size="0.6096" layer="25" font="vector" ratio="16" align="bottom-center"/>
 <attribute name="VALUE" x="15.08125" y="23.33625" size="0.6096" layer="27" font="vector" ratio="16" align="top-center"/>
 </element>
@@ -515,7 +515,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <attribute name="NAME" x="37.465" y="22.5425" size="0.6096" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="38.735" y="22.5425" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="top-center"/>
 </element>
-<element name="R2" library="small_laser_supply_lib" package="0603" value="442" x="35.56" y="22.5425" smashed="yes" rot="R90">
+<element name="R3" library="small_laser_supply_lib" package="0603" value="442" x="35.56" y="22.5425" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.925" y="22.5425" size="0.6096" layer="25" font="vector" ratio="16" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="36.195" y="22.5425" size="0.6096" layer="27" font="vector" ratio="16" rot="R90" align="top-center"/>
 </element>
@@ -551,6 +551,10 @@ Unknown parameters left as the Eagle Defaults</description>
 </element>
 <element name="D3" library="small_laser_supply_lib" package="DO-214AA" value="18v" x="21.59" y="5.08" rot="R90"/>
 <element name="PTC1" library="small_laser_supply_lib" package="2SMD_PTC" value="800mA" x="14.605" y="4.445"/>
+<element name="R2" library="small_laser_supply_lib" package="0603" value="4020" x="45.085" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="45.085" y="21.9075" size="0.6096" layer="25" font="vector" ratio="16" align="bottom-center"/>
+<attribute name="VALUE" x="45.085" y="18.7325" size="0.6096" layer="27" font="vector" ratio="16" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -601,12 +605,13 @@ Unknown parameters left as the Eagle Defaults</description>
 <via x="26.035" y="0.9525" extent="1-16" drill="0.2"/>
 <via x="29.21" y="4.445" extent="1-16" drill="0.2"/>
 <via x="16.03375" y="18.57375" extent="1-16" drill="0.2"/>
+<contactref element="R2" pad="1"/>
 </signal>
 <signal name="-5V">
 <contactref element="U1" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="R2" pad="2"/>
-<contactref element="R_REF" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R4" pad="2"/>
 <contactref element="VR1" pad="3"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C5" pad="2"/>
@@ -642,7 +647,7 @@ Unknown parameters left as the Eagle Defaults</description>
 <wire x1="14.76125" y1="19.63635" x2="14.76125" y2="18.30375" width="0.3175" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="R_REF" pad="1"/>
+<contactref element="R4" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="U1" pad="4"/>
 <wire x1="11.69125" y1="23.33625" x2="11.6424" y2="23.2874" width="0.3175" layer="1"/>
@@ -652,7 +657,7 @@ Unknown parameters left as the Eagle Defaults</description>
 </signal>
 <signal name="V_REF">
 <contactref element="R1" pad="2"/>
-<contactref element="R2" pad="1"/>
+<contactref element="R3" pad="1"/>
 <contactref element="U1" pad="3"/>
 <contactref element="C3" pad="2"/>
 <wire x1="35.56" y1="21.6925" x2="36.45625" y2="21.6925" width="0.3175" layer="1"/>
@@ -715,6 +720,9 @@ Unknown parameters left as the Eagle Defaults</description>
 <contactref element="Q2" pad="1"/>
 <wire x1="41.91" y1="12.7" x2="41.91" y2="18.095" width="0.3175" layer="1"/>
 <wire x1="41.91" y1="18.095" x2="38.62375" y2="18.1" width="0.3175" layer="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="45.085" y1="19.47" x2="43.71" y2="18.095" width="0.3175" layer="1"/>
+<wire x1="43.71" y1="18.095" x2="41.91" y2="18.095" width="0.3175" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Q2" pad="3"/>
