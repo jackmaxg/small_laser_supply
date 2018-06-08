@@ -10,8 +10,8 @@ jackmaxg@mit.edu
 Summer '18 UROP
 
 
-![alt text](images/schpic.png)
+![Schematic](images/schpic.png)
 
-![alt text](images/boardpic.png)
+![Board](images/boardpic.png)
 
-![alt text](images/case_cad_pic.png)
+![Case Cad](images/case_cad_pic.PNG)
