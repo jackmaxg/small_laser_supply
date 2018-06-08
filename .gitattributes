@@ -18,3 +18,7 @@
 *.brd binary
 *.epf binary
 *.cam binary 
+
+#Binary CAD files
+*.stl binary
+*.step binary

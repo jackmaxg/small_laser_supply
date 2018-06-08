@@ -13,3 +13,5 @@ Summer '18 UROP
 ![alt text](images/schpic.png)
 
 ![alt text](images/boardpic.png)
+
+![alt text](images/case_cad_pic.png)
