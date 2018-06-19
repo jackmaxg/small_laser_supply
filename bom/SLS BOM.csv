@@ -1,0 +1,15 @@
+part/description,QTY,#2Buy,MFR#,digikey p#,Link
+BNC Vertical Female,3,10,5-1634503-1,A97581-ND,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5-1634503-1/A97581-ND/1755969
+Wurth Threaded M3 Insert,4,20,7466003R,732-5647-1-ND,https://www.digikey.com/product-detail/en/wurth-electronics-inc/7466003R/732-5647-1-ND/4915484
+xtra slow opamp LT6003,1,5,LT6003IS5#TRMPBF,LT6003IS5#TRMPBFCT-ND,https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LT6003IS5-TRMPBF/LT6003IS5-TRMPBFCT-ND/1964949
+5V 7905 linear reg,1,5,UA79M05CKVURG3,296-20735-1-ND,https://www.digikey.com/product-detail/en/texas-instruments/UA79M05CKVURG3/296-20735-1-ND/1197757
+800mA PTC,1,5,SMD030F-2018-2,SMD030F-2018-2CT-ND,https://www.digikey.com/product-detail/en/littelfuse-inc/SMD030F-2018-2/SMD030F-2018-2CT-ND/3720149
+15v TVS,1,5,,SMBJ15D-M3/HGICT-ND,https://www.digikey.com/product-detail/en/vishay-semiconductor-diodes-division/SMBJ15D-M3-H/SMBJ15D-M3-HGICT-ND/5253063
+5.8v TVS,2,10,,1KSMB6.8ACT-ND,https://www.digikey.com/product-detail/en/littelfuse-inc/1KSMB6.8A/1KSMB6.8ACT-ND/2699826
+.1uF 0603 cap,2,10,,445-8818-1-ND,https://www.digikey.com/product-detail/en/tdk-corporation/C1608X8R1H104K080AB/445-8818-1-ND/3248223
+1uF 0603,3,10,,445-7878-1-ND,https://www.digikey.com/product-detail/en/tdk-corporation/CGA3E3X5R1H105K080AB/445-7878-1-ND/2781382
+PFet,1,5,,DMP3056L-7DICT-ND,https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056L-7/DMP3056L-7DICT-ND/5126873
+NPN,1,5,,ZXTN25100DFHCT-ND,https://www.digikey.com/product-detail/en/diodes-incorporated/ZXTN25100DFHTA/ZXTN25100DFHCT-ND/1137308
+165ohm 0603 resistor,1,10,,P165HCT-ND,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&v=10&FV=c0001%2C142c040c%2C1f140000%2Cmu165+Ohms%7C2085%2Cffe00034%2C1c0002&quantity=0&ColumnSort=0&page=1&stock=1&pageSize=25
+4020ohm 0603 resistor,2,10,,P4.02KHCT-ND,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&v=10&FV=c0001%2C1c0002%2C142c040c%2C1f140000%2Cffe00034%2Cmu4.02+kOhms%7C2085&quantity=0&ColumnSort=0&page=1&stock=1&pageSize=25
+442ohm 0603 resistor,1,10,,P442HCT-ND,https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&pv2085=u442+Ohms&FV=c0001%2C1c0002%2C142c040c%2C1f140000%2Cffe00034%2Cfffc000a&quantity=0&ColumnSort=0&page=1&stock=1&pageSize=25

@@ -176,7 +176,7 @@ http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;Do
 <description>Wurth Threaded Insert M3
 
 http://katalog.we-online.de/em/datasheet/7466003.pdf</description>
-<pad name="P" x="0" y="0" drill="4.2" diameter="8.5" thermals="no"/>
+<pad name="P" x="0" y="0" drill="4.1" diameter="8.5" thermals="no"/>
 <text x="0" y="2.8575" size="1.27" layer="51" font="vector" ratio="16" align="center">M3</text>
 <circle x="0" y="0" radius="4.445" width="0.127" layer="21"/>
 </package>

@@ -17,7 +17,9 @@
 *.sch binary
 *.brd binary
 *.epf binary
-*.cam binary 
+*.cam binary
+*.dru binary
+*.lbr binary
 
 #Binary CAD files
 *.stl binary

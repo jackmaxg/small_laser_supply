@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -174,7 +174,7 @@ http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;Do
 <description>Wurth Threaded Insert M3
 
 http://katalog.we-online.de/em/datasheet/7466003.pdf</description>
-<pad name="P" x="0" y="0" drill="4.2" diameter="8.5" thermals="no"/>
+<pad name="P" x="0" y="0" drill="4.1" diameter="8.5" thermals="no"/>
 <text x="0" y="2.8575" size="1.27" layer="51" font="vector" ratio="16" align="center">M3</text>
 <circle x="0" y="0" radius="4.445" width="0.127" layer="21"/>
 </package>
